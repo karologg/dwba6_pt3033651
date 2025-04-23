@@ -9,11 +9,11 @@ section {
 }
 
 .event-section img {
-    border-radius: 50px;
+    border-radius: 50%;
 }
 
 .event-section p {
     border: dashed;
-    width: 100%;
+    width: 70%;
     text-align: center;
 }
