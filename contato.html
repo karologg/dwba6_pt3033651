@@ -3,20 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="contact.css">
     <title>CONTATO</title>
 </head>
 <body>
     <header>
-        <nav align="right">
-          <a href="index.html">HOME</a> | 
-          <a href="eventos.html">EVENTOS</a> | 
-          <a href="contato.html">CONTATO</a> | 
-          <a href="sobre.html">SOBRE</a> | 
-          <a href="entrar.html">ENTRAR</a>
+        <nav>
+          <div class="nav-left">
+            <a href="index.html">HOME</a>
+            <a href="eventos.html">EVENTOS</a>
+            <a href="contato.html">CONTATO</a>
+            <div class="dropdown">
+              <a href="cursos.html" class="dropbtn"> CURSOS ▼</a>
+              <div class="dropdown-content">
+                <a href="engenharia-producao.html">Engenharia da Produção</a>
+                <a href="analise-sistemas.html">Análise e Dsenvolvimento de Sistemas</a>
+              </div>
+            </div>
+            <a href="entrar.html">ENTRAR</a>
+          </div>
+          <div class="nav-right">
+            <a href="sobre.html">SOBRE</a>
+          </div>
         </nav>
-        <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/77770610c0de515c6150e899d70445ff3d25094d/Logo.jpg"/>
-  
-    </header>
+    
+        <div class="logo-container">
+          <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/77770610c0de515c6150e899d70445ff3d25094d/Logo.jpg"/>
+        </div>
+      </header>
 
     <main>
         <h1>Mande uma mensagem</h1>
